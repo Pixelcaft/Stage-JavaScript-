@@ -50,5 +50,5 @@ function saveChanges(userToChange) {
     localStorage.setItem("gegevens", JSON.stringify(gegevens));
 
     // Geef een melding dat de wijzigingen zijn opgeslagen
-    alert("Wijzigingen zijn opgeslagen!");
+    console.log("Wijzigingen zijn opgeslagen!");
 }
