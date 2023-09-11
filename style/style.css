@@ -49,6 +49,7 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
+
 ::placeholder {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -73,6 +74,7 @@ textarea {
     justify-content: end;
     margin-right: 10px;
 }
+
 .submit {
     height: 38px;
     width: 200px;
@@ -169,7 +171,7 @@ textarea {
     font-size: medium;
     margin-top: 10px;
     width: 90%;
-    border:1px solid #41474f;
+    border: 1px solid #41474f;
     height: 48px;
     border-radius: 0.5rem;
     background-color: white;
@@ -191,7 +193,7 @@ textarea {
 }
 
 .change-button:hover {
-    color: #5294ff69;
+    color: #5294ff;
 }
 
 
@@ -232,7 +234,9 @@ textarea {
 }
 
 .read-button:hover {
-    color: #45ef3f69;
+    color: #45ef3f;
 }
 
-  
+.inside-container:hover {
+    border: solid #41474f;
+}
