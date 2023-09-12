@@ -1,8 +1,8 @@
-const urlParams =  new URLSearchParams(window.location.search);
+const urlParams = new URLSearchParams(window.location.search);
 
 const userId = urlParams.get("id");
 
- let gegevens = JSON.parse(localStorage.getItem("gegevens")) || [];
+let gegevens = JSON.parse(localStorage.getItem("gegevens")) || [];
 
 if (urlParams.has('activate') && urlParams.get('activate') === 'true') {
     activatescript();
