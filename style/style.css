@@ -120,6 +120,12 @@ textarea {
     background-color: #545F71;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    cursor: pointer;
+}
+
+.add-user-button:hover {
+    background-color: #545f716a;
+
 }
 
 .add-or-old-user-button:hover {
@@ -137,10 +143,15 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     text-align: center;
+    cursor: pointer;
 }
 
 .new-or-old-user-text {
     margin-top: 10px;
+}
+
+.new-or-old-user:hover {
+    background-color: #545f7174;
 }
 
 /* ---------------------------OVEVIEW-------------------------------- */
